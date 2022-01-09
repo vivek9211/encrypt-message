@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Password Generator</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Merriweather:ital,wght@1,400;1,700&family=Vujahday+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+  <!-- Font Awsome Icon -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- Bootstrap css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- Heading -->
+  <section id="header">
+    <h1 class="heading">- Encrypt and Decrypt Your Message -</h1>
+  </section>
+
+  <!-- Encrypting and Decrypting -->
+  <section id="main">
+    <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+        <h4 class="encryptHeader">Encrypter</h4>
+        <p class="para"> Enter Your Message: </p>
+        <textarea name="name" class="textarea1" rows="8" cols="64" placeholder="Enter Your Message here..." id="EncryptTextarea"></textarea>
+        <p class="para"> How many shift do you want to perform?</p>
+        <input type="number" id="EncryptShift" class="shift" name="" value="1" min="1" max="10"><br><br>
+        <button type="button" id="button1" class="btn btn-primary btn-lg btn-block">Submit</button>
+    </div>
+    <div class="col-md-6">
+        <h4 class="decryptHeader">Decrypter</h4>
+        <p class="para"> Enter Your Message: </p>
+        <textarea name="name" class="textarea2" rows="8" cols="64" placeholder="Enter Your Message here..." id="DecrypTextarea"></textarea>
+        <p class="para"> How many shift do you want to perform?</p>
+        <input type="number" id="DecryptShift" class="shift" name="" value="1" min="1" max="10"><br><br>
+        <button type="button" id="button2" class="btn btn-primary btn-lg btn-block">Submit</button>
+    </div>
+  </div>
+</div>
+  </section>
+
+<!-- Output Section -->
+  <section id="output">
+    <h1 class="outputHeading">- Output Message -</h1>
+    <div class="output">
+      <p id="outputMessage">Your Message will Apper here...</p>
+    </div>
+  </section>
+
+<!-- Footer Section -->
+  <section id="footer">
+    <div class="social">
+      <a class="footer-logo" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a class="footer-logo" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+      <a class="footer-logo" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      <a class="footer-logo" href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      <p class = "footer-para">designed by <span class="intro"><b>Vivek Kumar</b></span></p>
+    </div>
+  </section>
+</body>
+<script src="index.js" charset="utf-8"></script>
+
+</html>
