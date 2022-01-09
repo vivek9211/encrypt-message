@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+#header{
+  background-color: #1A374D;
+}
+.heading{
+  font-family: 'Vujahday Script', cursive;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+#main{
+  text-align: center;
+  background-color: #406882;
+  color: lightgray;
+  letter-spacing: 1.5px;
+  padding-bottom: 30px;
+}
+
+.encrypt{
+  border: 0 solid red;
+  border-radius: 5px;
+  width: 50%;
+  height: 27rem;
+
+  margin-left: 1.5%;
+  position: absolute;
+  display: block;
+}
+.decrypt{
+  border: 0 solid red;
+  border-radius: 5px;
+  width: 50%;
+  height: 27rem;
+
+}
+.textarea1, .textarea2{
+  background-color: #F7F7F7;
+  color: black;
+  letter-spacing: 1.5px;
+}
+.encryptHeader, .decryptHeader{
+  text-align: center;
+  font-family: 'Luxurious Roman', cursive;
+  font-weight: 600;
+}
+.textarea{
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  padding: 2px 2px;
+  resize: horizontal;
+}
+.para{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-left: 6px;
+}
+.shift{
+  margin-left: 6px;
+}
+#output{
+  padding-top: 2%;
+  background-color: #6998AB;
+  letter-spacing: 1.5px;
+  color: white;
+  padding-bottom: 20px;
+}
+.outputHeading{
+  font-family: 'Vujahday Script', cursive;
+  text-align: center;
+}
+.outputMessage{
+  margin-left: 25%;
+}
+.output{
+  border: 3px solid gray;
+  width: 87%;
+  height: 200px;
+  margin-left: 6%;
+  margin-top: 1%;
+  padding: 0 2px 2px 2px;
+}
+#footer{
+  text-align: center;
+  padding-top: 2%;
+  background-color: #1A374D;
+}
+.social{
+  width: 40%;
+  height: 50px;
+  margin-left: 35%;
+}
+.footer-logo{
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.footer-para{
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.intro{
+  font-weight: 900;
+  color: red;
+}
+@media (max-width: 1000px) {
+  .textarea1, .textarea2{
+    width: 100%;
+  }
+
+}
